@@ -9,11 +9,11 @@ function App() {
         <p>
           Welcome to my first React Project.
         </p>
-        <a
+        <p
           className="App-link"
         >
           Math Magicians
-        </a>
+        </p>
       </header>
     </div>
   );
