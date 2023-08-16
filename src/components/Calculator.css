@@ -1,65 +1,65 @@
-*, *::after, *::before {
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
 body {
-    background: linear-gradient(to right, #075f2d, #3173e5);
+  background: linear-gradient(to right, #075f2d, #3173e5);
 }
 
 .main-grid {
-    display: grid;
-    margin-top: 2rem;
-    justify-content: center;
-    grid-template-columns: repeat(4, 6rem);
-    grid-template-rows: minmax(6rem, auto) repeat(5, 5rem);
+  display: grid;
+  margin-top: 2rem;
+  justify-content: center;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: minmax(6rem, auto) repeat(5, 5rem);
 }
 
 .output {
-    grid-column: 1 / -1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-around;
-    word-wrap: break-word;
-    word-break: break-all;
-    padding: 0.70rem;
-    background: rgba(0, 0, 0, 0.40);
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 0.7rem;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .output .pre-operand {
-    color: rgba(255, 255, 255, .70);
-    font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.5rem;
 }
 
 .output .cur-operand {
-    color: rgba(255, 255, 255);
-    font-size: 2.5rem;
+  color: rgba(255, 255, 255);
+  font-size: 2.5rem;
 }
 
 .main-grid > button {
-    cursor: pointer;
-    font-size: 1.5rem;
-    border: 1px solid rgb(200, 255, 255);
-    outline: none;
-    background: rgba(255, 255, 255, 0.80);
+  cursor: pointer;
+  font-size: 1.5rem;
+  border: 1px solid rgb(200, 255, 255);
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
 }
 
-.main-grid > button:hover, 
+.main-grid > button:hover,
 .main-grid > button:focus {
-    background: rgba(255, 255, 255, 0.90);
-
+  background: rgba(255, 255, 255, 0.9);
 }
 
 button.lastBtn {
-    background-color: rgb(255, 165, 0);
+  background-color: rgb(255, 165, 0);
 }
 
 button.lastBtn:hover,
 button.lastBtn:focus {
-    background-color: rgba(255, 165, 0, 0.80);
+  background-color: rgba(255, 165, 0, 0.8);
 }
 
 .span-two {
-    grid-column: span 2;
-
+  grid-column: span 2;
 }
