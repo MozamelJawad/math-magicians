@@ -10,10 +10,10 @@ body {
 
 .main-grid {
   display: grid;
-  margin-top: 2rem;
+  margin-top: 1rem;
   justify-content: center;
   grid-template-columns: repeat(4, 6rem);
-  grid-template-rows: minmax(6rem, auto) repeat(5, 5rem);
+  grid-template-rows: minmax(6rem, auto) repeat(5, 4.8rem);
 }
 
 .output {
