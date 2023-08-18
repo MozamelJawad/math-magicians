@@ -1,0 +1,17 @@
+.quoteContainer {
+    background: linear-gradient(to right, #ffddaa, #ffaa00);
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.loading {
+    color: rgb(8, 91, 25);
+}
+
+.mainQuote {
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(43, 10, 154);
+    font-weight: bold;
+}
