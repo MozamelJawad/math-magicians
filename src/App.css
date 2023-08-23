@@ -1,3 +1,55 @@
 * {
   box-sizing: border-box;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid whitesmoke;
+  gap: 3rem;
+  color: wheat;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5rem;
+}
+
+.navbar ul li {
+  list-style: none;
+  color: white;
+}
+
+.navbar ul li:hover a {
+  list-style: none;
+  color: white;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.TopHeading {
+  color: yellowgreen;
+}
+
+.HomeMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  align-items: first baseline;
+  margin-left: 10rem;
+  width: 70%;
+}
+
+.para {
+  color: white;
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+}

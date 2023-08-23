@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './FetchQuote.css';
 
-function FetchQuote() {
+function Quote() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -46,4 +46,4 @@ function FetchQuote() {
   );
 }
 
-export default FetchQuote;
+export default Quote;
