@@ -6,7 +6,8 @@
   display: flex;
   justify-content: space-around;
   border-bottom: 2px solid whitesmoke;
-  gap: 3rem;
+  align-items: last baseline;
+  gap: 9rem;
   color: wheat;
 }
 
@@ -14,18 +15,24 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 5rem;
 }
 
 .navbar ul li {
   list-style: none;
   color: white;
+  border-right: 2px solid wheat;
+  padding: 0.2rem 1rem;
+}
+
+.navbar ul li:last-child {
+  border: none;
 }
 
 .navbar ul li a {
   text-decoration: none;
   font-weight: bold;
   color: white;
+  border-bottom: 1px solid wheat;
 }
 
 .TopHeading {
