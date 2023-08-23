@@ -3,9 +3,13 @@ import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
 const MainCalculatorContainer = () => (
-  <div className="main-grid">
-    <Calculator />
+  <div className="main">
+    <h2 className="TopHeading">Let us do some Math!</h2>
+    <div className="main-grid">
+      <Calculator />
+    </div>
   </div>
+
 );
 
 function Calculator() {

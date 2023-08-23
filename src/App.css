@@ -1,3 +1,57 @@
 * {
   box-sizing: border-box;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid whitesmoke;
+  align-items: last baseline;
+  gap: 9rem;
+  color: wheat;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar ul li {
+  list-style: none;
+  color: white;
+  border-right: 2px solid wheat;
+  padding: 0.2rem 1rem;
+}
+
+.navbar ul li:last-child {
+  border: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border-bottom: 1px solid wheat;
+}
+
+.TopHeading {
+  color: yellowgreen;
+}
+
+.HomeMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  align-items: first baseline;
+  margin-left: 10rem;
+  width: 70%;
+}
+
+.para {
+  color: white;
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+}

@@ -1,17 +1,20 @@
 .quoteContainer {
-  background: linear-gradient(to right, #fda, #fa0);
-  display: flex;
+  display: grid;
   justify-content: center;
-  margin-top: 0.5rem;
+  margin-top: 5rem;
+  grid-template-columns: repeat(1, 80%);
 }
 
 .loading {
-  color: rgb(8, 91, 25);
+  color: rgb(200, 222, 30);
+  text-align: center;
 }
 
 .mainQuote {
+  background: linear-gradient(to right, #fda, #fa0);
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.8;
+  padding: 2rem;
   color: rgb(43, 10, 154);
   font-weight: bold;
 }
