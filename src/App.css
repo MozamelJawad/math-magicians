@@ -22,11 +22,6 @@
   color: white;
 }
 
-.navbar ul li:hover a {
-  list-style: none;
-  color: white;
-}
-
 .navbar ul li a {
   text-decoration: none;
   font-weight: bold;
