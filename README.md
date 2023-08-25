@@ -41,7 +41,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- 
+-  [Live Demo](https://math-magicians-7sq6.onrender.com)
+ 
 
 ##
 
